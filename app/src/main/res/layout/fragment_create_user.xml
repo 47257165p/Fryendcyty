@@ -10,11 +10,20 @@
     tools:showIn="@layout/activity_create_user">
 
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eTLastCreate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EMAIL"
         android:id="@+id/textView6"
+        android:layout_below="@+id/eTLastCreate"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 

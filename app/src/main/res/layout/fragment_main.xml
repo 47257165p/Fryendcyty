@@ -40,7 +40,7 @@
         android:layout_alignStart="@+id/textView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
-        android:editable="false" />
+        />
 
     <EditText
         android:layout_width="wrap_content"
@@ -50,7 +50,8 @@
         android:layout_alignRight="@+id/eTUsernameMain"
         android:layout_alignEnd="@+id/eTUsernameMain"
         android:layout_alignLeft="@+id/eTUsernameMain"
-        android:layout_alignStart="@+id/eTUsernameMain" />
+        android:layout_alignStart="@+id/eTUsernameMain"
+        android:inputType="textPassword"/>
 
     <Button
         android:layout_width="wrap_content"
