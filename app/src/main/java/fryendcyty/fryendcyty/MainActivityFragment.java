@@ -83,8 +83,9 @@ public class MainActivityFragment extends Fragment {
                     map.put("provider", authData.getProvider());
                     map.put("email", eTUsernameMain.getText().toString());
                     ref.child("users").child(authData.getUid()).setValue(map);
-
-
+                    Intent tabActivity = new Intent(getContext(), tabActivity.class);
+                    tabActivity.putExtra("name", eTUsernameMain.getText().toString());
+                    startActivity(tabActivity);
                 }
 
                 @Override

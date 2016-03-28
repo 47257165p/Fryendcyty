@@ -23,6 +23,10 @@
         <activity
             android:name=".CreateUser"
             android:label="@string/title_activity_create_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabActivity"
+            android:label="@string/title_activity_tab"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

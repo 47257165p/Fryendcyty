@@ -6,4 +6,6 @@
     <string name="sign_up">Sign up!</string>
     <string name="welcome_message">Welcome to Fryendcyty</string>
     <string name="title_activity_create_user">CreateUser</string>
+    <string name="title_activity_tab">tabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
