@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fryendcyty</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="welcome_message">Welcome to Fryendcyty</string>
+    <string name="title_activity_create_user">CreateUser</string>
+</resources>
