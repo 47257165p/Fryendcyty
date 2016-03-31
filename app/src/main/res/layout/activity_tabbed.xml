@@ -27,7 +27,7 @@
     </android.support.design.widget.AppBarLayout>
 
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_tabbed" />
 
     <fryendcyty.fryendcyty.CustomViewPager
         android:id="@+id/viewPager"
