@@ -60,6 +60,8 @@ public class MainActivityFragment extends Fragment {
 
     public void authFirebase ()
     {
+        eTUsernameMain.setText("47257165p@iespoblenou.org");
+        eTPasswordMain.setText("931994");
         if (eTUsernameMain.getText().toString().equals("") ||
                 eTPasswordMain.toString().equals(""))
         {
@@ -83,7 +85,7 @@ public class MainActivityFragment extends Fragment {
                     map.put("provider", authData.getProvider());
                     map.put("email", eTUsernameMain.getText().toString());
                     ref.child("users").child(authData.getUid()).setValue(map);
-                    Intent tabActivity = new Intent(getContext(), tabActivity.class);
+                    Intent tabActivity = new Intent(getContext(), tabbedActivity.class);
                     tabActivity.putExtra("name", eTUsernameMain.getText().toString());
                     startActivity(tabActivity);
                 }

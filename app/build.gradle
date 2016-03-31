@@ -30,4 +30,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:+'
     compile 'com.android.support:design:+'
     compile 'com.firebase:firebase-client-android:+'
+    compile 'org.osmdroid:osmdroid-android:5.1@aar'
 }
