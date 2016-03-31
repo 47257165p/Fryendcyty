@@ -64,6 +64,7 @@ public class tabbedActivity extends AppCompatActivity {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new MapFragment(), "MAP");
+        adapter.addFragment(new NewMarker(), "SHARE");
         viewPager.setAdapter(adapter);
         viewPager.setPagingEnabled(false);
     }
