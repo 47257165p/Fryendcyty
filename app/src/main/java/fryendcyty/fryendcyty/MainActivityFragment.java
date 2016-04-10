@@ -59,8 +59,6 @@ public class MainActivityFragment extends Fragment {
 
     public void authFirebase ()
     {
-        eTUsernameMain.setText("47257165p@iespoblenou.org");
-        eTPasswordMain.setText("931994");
         if (eTUsernameMain.getText().toString().equals("") ||
                 eTPasswordMain.toString().equals(""))
         {
