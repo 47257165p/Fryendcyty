@@ -10,7 +10,7 @@
         android:text="VIDEO"
         android:id="@+id/bTVideo"
         android:layout_marginTop="105dp"
-        android:onClick="onLogin"
+        android:onClick="onVideo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
     <Button
@@ -21,15 +21,27 @@
         android:layout_marginTop="40dp"
         android:layout_below="@+id/bTVideo"
         android:layout_centerHorizontal="true"
-        android:onClick="onLogin" />
+        android:onClick="onPhoto" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SOUND"
+        android:text="VOICE"
         android:id="@+id/bTSound"
         android:layout_marginTop="40dp"
         android:layout_below="@+id/bTPhoto"
         android:layout_centerHorizontal="true"
-        android:onClick="onLogin" />
+        android:onClick="onSound" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/bTUpload"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp" />
 
 </RelativeLayout>
